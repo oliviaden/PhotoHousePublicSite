@@ -1,0 +1,43 @@
+:root {
+    --purple: #9747FF;
+    --deep-purple: #391779;
+}
+
+
+
+body {
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+h3 {
+    color: var(--purple);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
