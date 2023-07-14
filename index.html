@@ -4,6 +4,8 @@
         <title>Photo House</title>
         <link rel="icon" type="image/x-icon" href="assets/images/ph_favicon.svg">
         <link href="/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
 
     <body>
@@ -26,8 +28,8 @@
         </div>
 
 
-        <div class="header">
-            <img src="assets/images/white-icon.svg" alt="photo house icon">
+        <div class="header" id="top">
+            <img id="ph_icon" src="assets/images/white-icon.svg" alt="photo house icon">
             <h1>Photo House </h1>
         </div>
 
@@ -36,54 +38,161 @@
         <h3>h3 text</h3>
         <p>body text.</p>
 
-        <div class="heroImage" id="top">
-
+        <div class="heroImage">
+            <img id="hero_image" src="assets/images/hero_image.jpg" alt="members of photo house holding cameras and smiling for a group photo">
         </div>
 
 
         <div class="about" id="about-section">
-
+            <div class="content">
+                <p>est.2000</p>
+                <p>Located in Nathaniel Rochester Hall at Rochester 
+                Institute of Technology on the 4th floor, Photo House 
+                is a Special Interest House dedicated to creating a 
+                community of people who love photography. We live 
+                together, but more importantly, we work and 
+                play together. Join us in our love for photography!</p>
+            </div>
         </div>
 
 
         <div class="facilities" id="facilities-section">
+            <div class="border-box">
+                <div class="section-title">
+                    <h2>Facilities</h2>
+                </div>
+                <div class="facil-cards">
+                    <div class="row">
+                        <div class="column">
+                          <div class="card">
+                            <!-- icon here -->
+                            <h3>Fully Equipped Studio </h3>
+                            <p>We have seamless backdrops, lights, props 
+                                and supplies ready to be used! Etc. add 
+                                more text here with more wowing details!</p>
+                          </div>
+                        </div>
+                      
+                        <div class="column">
+                          <div class="card">
+                            <!-- icon here -->
+                            <h3>Printing Finish Room</h3>
+                            <p>A workspace with computers equipped with 
+                                Adobe apps, a Canon printer, light boxes, 
+                                trimming equipment, and tables for open work.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="column">
+                          <div class="card">
+                            <!-- icon here -->
+                            <h3>Gallery</h3>
+                            <p>Where we get to show off member and alumni work</p>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="column">
+                          <div class="card">
+                            <!-- icon here -->
+                            <h3>Study/Social Lounge</h3>
+                            <p>An open space to relax, study or have some 
+                                events with friends.</p>
+                          </div>
+                        </div>
 
+                        <div class="column">
+                            <div class="card">
+                             <!-- icon here -->
+                            <h3>Kitchen</h3>
+                            <p>We are lucky to have a 'kitchen' on floor!
+                                 We have a sink, eating area, etc..</p>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                            <!-- icon here -->
+                            <h3>Library</h3>
+                            <p>A collection of photography related reference materials.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-
         <div class="gallery" id="gallery-section">
-
+            <h2>Gallery</h2>
         </div>
 
 
         <div class="leadership" id="leadership-section">
-
+            <h2>Leadership</h2>
+            <!-- Inject json here here-->
         </div>
 
 
         <div class="join" id="join-section">
-
+            <h2>Want to join Photo House?</h2> 
+            <!-- USe this site to make the timelines: https://www.csscodelab.com/simple-horizontal-timeline-html-css/-->
+            <h3>Incoming RIT Students</h3>
+                <ul class="timeline">
+                    <li step="1" data-text="Select Photo House during the SIH/alternative housing options section of the housing contract selection </br> There should be a drop down during the process where you can select an SIH or alternative housing you are interested in."></li>
+                    <li step="2" data-text="Answer the questions on our application </br> Don't worry about trying to answer with a 'correct' answer, there isn't one. Just be yourself and answer honestly."></li>
+                    <li step="3" data-text="We start to receive and review applications around March and continue into the summer </br> We don't see any names when we review applications to ensure honest selection. If you answer the questions honestly and as yourself we'll most likely accept you!"></li>
+                    <li step="4" data-text="Acceptance notifications sent out </br> During the summer you'll hear back about if you were accepted to Photo House and if you'll be an on or off floor member. You'll be able to log online and select your room and roommate of you are to be an on floor member."></li>
+                </ul>  
+            <h3>Current RIT Students</h3>
+            <ul class="timeline">
+                <li step="1" data-text="Reach out </br> Email us at photohouserit@gmail.com or DM on our social medias"></li>
+                <li step="2" data-text="Answer the questions on our application </br> Don't worry about trying to answer with a 'correct' answer, there isn't one. Just be yourself and answer honestly."></li>
+                <li step="3" data-text="Join Campus Groups </br> Join the campus groups so we get notified you want to join"></li>
+                <li step="4" data-text="Other steps...."></li>
+            </ul>
         </div>
 
 
         <div class="events" id="events-section">
-
+            <h2>Events</h2>
+            <p>Fun things coming soon...</p>
         </div>
 
 
 
         <div class="contact" id="contact-section">
-
+            <h2>Contact</h2>
+            
+            <ul>
+                <li class="contact-list">
+                    <img src="assets/images/mail_icon.svg" alt="email icon">
+                    <p>Email</br> photohouserit@gmail.com</p>
+                </li>
+                <li class="contact-list">
+                    <img src="assets/images/insta_icon.svg" alt="instagram icon">
+                    <p>Instagram</br> @photohouserit</p>
+                </li>
+                <li class="contact-list">
+                    <img src="assets/images/fb_icon.svg" alt="Facebook icon">
+                    <p>Facebook</br> @photohouserit</p>
+                </li>
+                <li clas="contact-list" id="bonus-pic">
+                    <img src="assets/images/basic_camera.jpg" alt="lowly lit Canon camera and add-on lense beside it">
+                </li>
+            </ul>
         </div>
 
 
         <div class="footer">
-
+            <p2>JOIN THE PHOTO FAMILY</p2>
+            <button>Join</button>
+            <p2>Copyright © 2023 Photo House</p2>
+            <p2>Bugs or Feedback on the site? Submit a GitHub issue</p2>
+            <img src="assets/images/rit-black-logo-collapsed-1.png">
+            <img src="assets/images/black-icon.svg" alt=" photo house icon">
         </div>
 
-        
-
-
     </body>
-
 </html>
